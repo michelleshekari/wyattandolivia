@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> Olivia and Wyatt's Wedding </title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+<div class="banner index-banner">
+    <h1 class="logo-text"> <a href="index.html">Wyatt and Olivia's Wedding</a> </h1>
+</div>
+<nav>
+    <ul class="top-nav">
+        <li> <a href="index.html"> Home </a></li>
+          <li> <a href="our-story.html"> Our Story </a></li>
+            <li> <a href="big-day.html"> The Big Day </a></li>
+              <li> <a href="rsvp.html" class="page-indicator"> RSVP </a></li>
+                <li> <a href="guestbook.html"> Guestbook </a></li>
+    </ul>
+</nav>    
+
+<div class="rsvp-background">
+<div class="form-container">
+<div class="form-header">
+  <h2>Will You Attend?</h2>
+  <p>07.07.2018</p>
+</div>
+<form method="post">
+  <!--Default for Form submission. Goes into URL. However it isn't a safe method of submitting sensitive information.
+  <form method="get"></form>
+  -->
+  <!--Safe method for sensitive information.
+  <form method="post"></form>
+  -->
+  <label for="input-text">First Name: </label>
+  <input type="text" name="firstname" value="First Name" id="input-text" placeholder="First Name">
+
+  <br>
+  <br>
+  <label for="input-text2">Last name: </label>
+  <input type="text" name="lastname" value="Last Name" id="input-text2" placeholder="Last Name">
+
+  <br><br>
+  <label for="input-text3">Email: </label>
+  <input type="text" name="email" value="Email Address" id="input-text3">
+  <br><br>
+
+  <input type="radio" name="roster" value="Yes, I will be there">
+  Yes, I will be there
+  <br><br>
+  <input type="radio" name="roster" value="Sorry, I can't come">
+  Sorry, I can't come
+ <br><br>
+  If you are joining our celebration please select your meal preference below. If you are not attending please select the option for Not Attending.
+
+<br><br>
+
+  <select name="meal-preference">
+    <option value="fish">Fish</option>
+    <option value="chicken">Chicken</option>
+    <option value="steak">Steak</option>
+    <option value="vegan">Vegan</option>
+    <option value="decline">Not Attending</option>
+  </select>
+  <br><br>
+  <input type="submit" value="RSVP">
+
+  <br><br>
+
+  <p>Don't forget to leave us a note on our <a href="guestbook.html">Guestbook!</a> The greatest present is your presence. If you would like to further show your love, please visit our registry at <a href="https://www.honeyfund.com/" target="_blank">Honeyfund.com</a>
+  </p>
+ 
+</form>
+</div>
+
+
+</div><!--closing the form-containter div-->
+</div>
+
+    </body>
+
+  <footer>
+    <p>Copyright 2017</p>
+  </footer>
+
+</html>
+
+

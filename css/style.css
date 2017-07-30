@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    /* Body Font */
+}
+
+body {
+    background-color: #F9F9F7;
+}
+
+
+
+.logo-text {
+    font-family: 'Sacramento', cursive;
+    font-size: 48px;   
+    text-align: center;
+    color: #7C616C;
+}
+.logo-text a {
+    text-decoration: none;
+    color: #7C616C;
+}
+
+h2 {
+    margin: 40px;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    color: #DCC8B4;
+    text-decoration: underline;
+}
+
+/*Color Schemes:
+#EAFDF8 - Tiffany blue
+#E5E9EC - Gray
+#DDCAD9 - Pink
+#D1B1CB - Bright Pink
+#7C616C - Dark Purple
+#F9F9F7 - Lighter Grey
+*/
+
+
+/*
+Invitation font:
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+font-family: 'Sacramento', cursive;
+
+Body Copy Font
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+font-family: 'Dosis', sans-serif;
+
+*/
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+
+nav li {
+    width: 20%;
+    text-align: center;
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #7C616C;
+    padding: 10px;
+    transition: 0.25s;
+}
+
+nav a:hover {
+    background-color: #DDCAD9;
+    border-radius: 20px;
+}
+
+.page-indicator {
+    color: #000000;
+    text-decoration: overline;
+}
+
+
+#container {
+  background: #D1B1CB;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  width: 900px;
+  margin: 40px 0px 0px 100px;
+  padding: 10px;
+  height: 800px;
+  border-radius: 30px;
+  -webkit-box-shadow: 5px 5px 20px #666;
+  -moz-box-shadow: 5px 5px 20px #666;
+  box-shadow: 5px 5px 20px #666;
+}
+/* Homepage Styling starts here ===============================================================================================*/
+
+.clear-a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.our-story-module {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    background: linear-gradient(
+      rgba(250, 250, 250, 0.50),
+      rgba(255, 250, 250, 0.50)), url('../images/flowers4.jpg');
+    background-position: 40%;
+}
+.our-story-module:hover {
+    background: url('../images/flowers4.jpg');
+    background-position: 40%;
+    font-size: 2rem;
+
+}
+
+.big-day-homepage {
+    height: 330px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(
+      rgba(250, 250, 250, 0.50), 
+      rgba(255, 250, 250, 0.50)), url('../images/venue_2.jpeg');
+    background-position: 40%;
+}
+.big-day-homepage:hover {
+    background: url('../images/venue_2.jpeg');
+    background-position: 40%;
+    font-size: 2rem;
+}
+
+.rsvp-homepage {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    background: linear-gradient(
+      rgba(250, 250, 250, 0.50), 
+      rgba(255, 250, 250, 0.50)), url('../images/lovebeach.jpg');
+    background-position: 80%;
+}
+.rsvp-homepage:hover {
+    background: url('../images/lovebeach.jpg');
+    background-position: 80%;
+    font-size: 2rem;
+}
+
+/* Homepage Styling end here ===============================================================================================*/
+
+/* Michelle's (The Big Day) Styling starts here ===============================================================================================*/
+
+.venue-header {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 25px;
+}
+
+
+side-nav {
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+    background-color: rgba(234, 253, 248, .9);
+    text-align: center;
+    float: left;
+    margin-top: 90px;
+    width: 20%;
+    position: fixed;
+    border: .125px solid;
+    border-color: #7C616C;
+}
+
+side-nav ul {
+    margin: 10px 10px;
+}
+
+side-nav li {
+    text-align: center;
+    margin-top: 10px;
+}
+
+side-nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: 0.25s;
+}
+
+.venue {
+   overflow: hidden;  
+   float: right;
+   position: relative;
+   margin-top: 50px;
+   width: 80%;
+   text-align: center;
+}
+.venue-text {
+    position: absolute;
+    bottom: 50%;
+    text-align: center;
+    left: 20%;
+    width: 500px;
+    margin: 0px;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 1rem;
+}
+
+.hotel-info {
+   clear: both;
+   background-color: #EAFDF8;
+   width: 100%;
+   bottom: 0px;
+   text-align: center;
+   padding: 30px;
+   font-size: 1.25rem;
+}
+.hotel-info li {
+    margin-top: 8px;
+}
+ul {
+    list-style: none;
+}
+.hotel-1 {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 20%;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    outline: solid .15px;
+    padding: 8px;
+}
+.hotel-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hotel-1 a {
+    text-decoration: none;
+    color: #7C616C;
+}
+
+.hotel-1 a:hover {
+    background-color: #d1b1cb;
+    opacity: .5;
+}
+
+.directions {
+   background-color: white;
+   padding: 30px;
+   background-color: #F9F9F7;
+   text-align: center;
+   font-size: 1.25rem;
+}
+.mapouter {
+text-align: center;
+margin-top: 20px;
+margin-left: 250px;
+}
+
+.registry {
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    background-color: #F9F9F7;
+    font-size: 1.25rem;
+}
+/*
+.bottom-image {
+    width: 100%;
+    height: 450px;
+*/
+
+.registry-text {
+    width: 40%;
+    margin: auto;
+    color: #DCC8B4;
+}
+    
+.registry-text a {
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+}
+.registry{
+    height: 300px;
+    background: linear-gradient(
+      rgba(250, 250, 250, 0.40), 
+      rgba(255, 250, 250, 0.40)), url('../images/flowers3.jpg');
+      background-position: 40%;
+}
+
+footer {
+    padding: 1.2rem;
+    text-align: center;
+    font-size: .75rem;
+}
+
+
+
+/* Michelle's (The Big Day) Styling ENDS here ===============================================================================================*/
+
+
+/*Nicole's styling starts here*/
+
+
+  
+.body {
+  background: url("../images/flowers4.jpg") #FFFFFF
+  no-repeat center center fixed; 
+  background-size: cover;
+  background-position: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.full-img {
+ width: 100%;
+ border: 4px solid #000;
+}
+
+
+
+.our-story-box {
+  background: #DDCAD9 ;
+  width: 33.33%;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0px 0px 20px 0.7px #000000;
+  overflow: auto;
+  opacity: 0.9;
+}
+
+
+.story-banner {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 270px;
+    background: #DDCAD9;
+    overflow: auto;
+    opacity: 0.9;
+    box-shadow: 0px 0px 20px 0.7px #000000;
+}
+
+/*
+h3 {
+    margin: 40px;
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;
+    color: #7C616C;
+    text-shadow: 1px 1px #000;
+    text-align: center;
+}
+*/
+.story-h3 {
+    margin: 10px;
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;
+    color: #7C616C;
+    text-shadow: 2px 2px #fff;
+    text-align: center;
+}
+
+.story-h4 {
+    margin: 10px;
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    color: #7C616C;
+    text-shadow: 2px 2px #fff;
+    text-align: center;
+}
+
+/* Nicole's (Our Story) Styling ENDS here ===============================================================================================*/
+
+
+
+/* Annie's Styling RSVP & Guestbook starts here */
+.rsvp-background {
+    background: url('../images/flowers2.jpg');
+    no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 40%;
+}   
+
+.form-container {
+    margin: 30px auto 0px auto;
+    padding: 30px;
+    width: 60%;
+    background-color: #F1F1F1;
+    opacity: 0.95;
+}
+
+.form-header {
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;   
+    text-align: center;
+    color: #7C616C;
+}
+
+.guestbook-background {
+    background: url('../images/guestbook-flower.jpeg');
+    no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 40%;
+}
+
+.guestbook-container {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+.guestbook-heading {
+    margin: 40px;
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;
+    color: #DCC8B4;
+}
+
+.guestbook-textarea {
+    margin-bottom: 20px;
+}
+
+
+.comments {
+    display: inline-block;
+    text-align: left;
+    margin: auto;
+    width: 60%;
+}
+
+.guestbook-guest {
+    padding-left: 10px;
+}
+
+.guestbook-timestamp {
+    text-align: right;
+    font-size: 12px;
+}
+
+.guestbook-note {
+    padding-left: 20px; 
+}
+
+/* Annie's Styling RSVP & Guestbook ENDS here ===============================================================================================*/
+
